@@ -16,3 +16,22 @@
     border: 2px solid #000;
     border-radius: 5px;
 }
+
+.grid-container{
+    display: flex;
+    width: 900px;
+    height: 900px;
+    border: 1px solid red;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.raw{
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.raw:hover{
+    background-color: #000;
+}
